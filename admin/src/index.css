@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100..800&family=Caveat+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #171717;
+  font-family: Poppins;
+}
+
+.kannada {
+  font-family: Anek Kannada;
+}
+
+.app-logo {
+  font-family: Yeseva One;
+}
+
+.active hr {
+  @apply block
+}
+
+.title-font {
+  font-family: Caveat Brush;
+}
+
+.hero-text {
+  font-family: Tomorrow;
+}
+
+/* shadow glowing */
+
+@keyframes rotatingShadow {
+  0% {
+    box-shadow: 0 0 20px 5px rgba(0, 119, 255, 0.6);
+    /* Soft Blue */
+  }
+
+  25% {
+    box-shadow: 0 0 20px 5px rgba(138, 43, 226, 0.6);
+    /* Soft Purple */
+  }
+
+  50% {
+    box-shadow: 0 0 20px 5px rgba(50, 205, 50, 0.6);
+    /* Soft Green */
+  }
+
+  75% {
+    box-shadow: 0 0 20px 5px rgba(220, 20, 60, 0.6);
+    /* Soft Crimson */
+  }
+
+  100% {
+    box-shadow: 0 0 20px 5px rgba(0, 119, 255, 0.6);
+    /* Back to Soft Blue */
+  }
+}
+
+.glowing-shadow {
+  animation: rotatingShadow 4s linear infinite;
+  /* Adjust as needed */
+}
+
+
+/* shadow glowing */
+@keyframes fadeSlideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.text-left {
+  animation: fadeSlideLeft 1.5s ease-in-out forwards;
+}
+
+.text-right {
+  animation: fadeSlideRight 1.5s ease-in-out forwards;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* shining bg */
+@keyframes goldShine {
+  0% {
+    background-position: 150% -50%;
+  }
+
+  100% {
+    background-position: -50% 150%;
+  }
+}
+
+.shining-bg {
+  background: linear-gradient(45deg,
+      #d4af37 20%,
+      /* Gold */
+      #f9e4a6 45%,
+      /* Brighter Gold (Thin Highlight) */
+      #d4af37 70%
+      /* Gold */
+    );
+  color: black;
+  background-size: 300% 300%;
+  animation: goldShine 4s infinite alternate ease-in-out;
+}
