@@ -113,26 +113,26 @@ export const blogs = [
 export const projects = [
   {
     _id: 1,
-    src: assets.img7,
-    title: "Gemini-Yaksha",
-    subtitle: "A AI based Gemini clone",
+    src: assets.img1,
+    title: "AI SaaS Imagify",
+    subtitle: "Text-to-Image Generation using CLIP-DROP API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus!",
+      "I recently built a Full-Stack MERN AI SaaS project that converts user text prompts into AI-generated images using the CLIP-DROP API. This project helped me gain hands-on experience with: API Integration (CLIP-DROP for AI image generation) Payment Gateway (Razorpay for seamless transactions) Database Management (Efficient data storage and retrieval) Authentication & Authorization (Secure login/logout system) Tailwind CSS (For a fully responsive and modern UI)This project is not just functional but also fully mobile-responsive with an intuitive UI/UX. It reinforced my passion for building real-world applications, and I look forward to creating more advanced projects like this.Check it out & let’s connect! 🔥",
   },
   {
     _id: 2,
-    src: assets.img5,
-    title: "Gemini-Yaksha",
-    subtitle: "A AI based Gemini clone",
+    src: assets.img2,
+    title: " Service4U",
+    subtitle: "The Ultimate All-in-One Service & Gig Platform! 🚀",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus!",
+      "I’m thrilled to share Service4U, a comprehensive online service marketplace that connects users with essential services while also providing gig job opportunities for freelancers. This project is built with MERN stack and Tailwind CSS, ensuring a fast, responsive, and user-friendly experience.Key Features: All-in-One Service Platform – Book a wide range of services effortlessly Gig Job Opportunities – Helping freelancers find work easily MERN Stack Powered – Scalable, high-performance backend & frontend Modern UI with Tailwind CSS – Fully responsive and intuitive design Seamless User Experience – Easy navigation, smooth interactionsThis journey was more than just a project—it was a learning experience! 🚀 Exploring full-stack development, authentication, API integrations, and UI/UX design has strengthened my technical skills and fueled my passion for building real-world applications.    Eager to Learn & Grow!I am always excited to explore new technologies and improve my skills. Being part of the developer community has been a game-changer, and I look forward to contributing, learning, and collaborating with like-minded individuals.",
   },
   {
     _id: 3,
-    src: assets.img6,
+    src: assets.img3,
     title: "Gemini-Yaksha",
     subtitle: "A AI based Gemini clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nulla maxime, quam tempora optio culpa ipsum, provident veniam id labore velit reprehenderit? Obcaecati cumque consequatur magni dolorum porro consequuntur natus!",
+      "Excited to share my latest project – Gemini-Yaksha, a Gemini AI-inspired chatbot built using React.js and Tailwind CSS! This project was an amazing learning journey where I explored frontend UI/UX, API integration, and state management.Key Features of Gemini-Yaksha: Built with React.js – Component-based architecture for better maintainability Styled with Tailwind CSS – Fully responsive and modern UI AI-powered chatbot interface – Inspired by Google's Gemini AI Smooth and interactive experience – Optimized with performance-focused techniques Scalable and extendable – Can be integrated with AI APIs for real-world use",
   },
 ];

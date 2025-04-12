@@ -8,7 +8,9 @@ const NewBlog = () => {
   const [subTitle, setSubTitle] = useState("");
   const [content, setContent] = useState([{ type: "text", value: "" }]);
   const [images, setImages] = useState([]);
-  const backendUrl = "http://localhost:3000";
+  const backendUrl =
+    "https://blogiee-portfolio.onrender.com" ||
+    import.meta.env.VITE_BACKEND_URL;
 
   const addContentBlock = (type) => {
     if (type === "text") {
