@@ -62,7 +62,7 @@ const Navbar = () => {
               // onClick={() => navigate("/login")}
               onClick={(e) => openSignIn()}
             >
-              <p>LOGIN</p>
+              <p className="select-none">LOGIN</p>
             </div>
           </>
         )}
