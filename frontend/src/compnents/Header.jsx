@@ -45,7 +45,7 @@ const Header = () => {
                 type="email"
                 placeholder="your email here"
               /> */}
-              <p className="border-none outline-none bg-transparent text-center mr-2 w-full text-[#e4e3e4] font-semibold text-2xl">
+              <p className="border-none outline-none bg-transparent text-center mr-2 w-full text-[#e4e3e4] font-semibold text-sm sm:text-2xl">
                 Freelancer in Fiverr →
               </p>
               <button
