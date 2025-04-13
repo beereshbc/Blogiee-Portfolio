@@ -40,18 +40,21 @@ const Header = () => {
               </p>
             </div>
             <div className="mt-6 flex items-center justify-center sm:justify-start sm:ml-36 border border-[#e4e3e4]  md:glowing-shadow px-2 pl-4 max-w-full sm:max-w-[500px] py-2 rounded-full">
-              <input
+              {/* <input
                 className="border-none outline-none bg-transparent mr-2 w-full text-[#e4e3e4]"
                 type="email"
                 placeholder="your email here"
-              />
+              /> */}
+              <p className="border-none outline-none bg-transparent text-center mr-2 w-full text-[#e4e3e4] font-semibold text-2xl">
+                Freelancer in Fiverr →
+              </p>
               <button
                 onClick={() =>
-                  (window.location.href = 'mailto:"bcbeereshkumar@gmail.com')
+                  (window.location.href = "https://www.fiverr.com/s/8zlr5p4")
                 }
                 className="border border-[#e4e3e4] shining-bg py-2 px-6 rounded-full"
               >
-                Send
+                Fiverr
               </button>
             </div>
           </div>
