@@ -1,12 +1,9 @@
-import { useClerk, useUser } from "@clerk/clerk-react";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
   const [feedback, setFeedback] = useState("");
-  const { user } = useUser();
-  const { openSignIn } = useClerk();
 
   const feedbackHandler = (event) => {
     event.prventDefault;
@@ -58,7 +55,7 @@ const Footer = () => {
               <li
                 className="cursor-pointer"
                 onClick={() => {
-                  user ? navigate("/projects") : openSignIn();
+                  navigate("/projects");
                 }}
               >
                 Projects
@@ -71,7 +68,7 @@ const Footer = () => {
               <li
                 className="cursor-pointer"
                 onClick={() => {
-                  user ? navigate("/blog") : openSignIn();
+                  navigate("/blog");
                 }}
               >
                 Blog
@@ -79,7 +76,7 @@ const Footer = () => {
               <li
                 className="cursor-pointer"
                 onClick={() => {
-                  user ? navigate("/contact") : openSignIn();
+                  navigate("/contact");
                 }}
               >
                 Contact

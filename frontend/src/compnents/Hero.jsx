@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
-import { useClerk, useUser } from "@clerk/clerk-react";
 
 const Hero = () => {
   const navigate = useNavigate();
-
-  const { user } = useUser();
-  const { openSignIn } = useClerk();
 
   const [active, setActive] = useState(false);
 
@@ -101,7 +97,7 @@ const Hero = () => {
           />
           <button
             onClick={() => {
-              user ? navigate("/projects") : navigate(openSignIn());
+              navigate("/projects");
             }}
             className="py-3 px-6 border shining-bg border-[#e4e3e4]  glowing-shadow rounded-full hover:text-[#171717] hover:bg-[#e4e3e4] transition-all duration-300"
           >
